@@ -3,8 +3,8 @@ import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   return (
-    <nav>
-      <div className="logo"></div>
+    <nav className="navbar">
+      <a href="/" className="logo"><i class="fas fa-code fa-2x"></i></a>
       <div className="links">
         <ul>
           <li><Link to="/coverLetter">Cover Letter</Link></li>
