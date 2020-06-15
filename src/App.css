@@ -1,7 +1,7 @@
 :root {
-  --primary-color: #0d9696;
-  --secondary-color: #96510d;
-  --supplimental-color: #960d0d;
+  --primary-color: #101820ff;
+  --secondary-color: #fee715ff;
+  --supplimental-color: #e5d541;
 }
 
 * {
@@ -14,8 +14,8 @@ body {
   font-family: 'Montserrat', sans-serif;
   font-size: 1rem;
   line-height: 1.6;
-  /* background-color: #fff;
-  color: #333; */
+  background-color: var(--supplimental-color);
+  color: var(--primary-color);
 }
 
 a {
@@ -30,7 +30,7 @@ ul {
 .btn {
   display: inline-block;
   background: var(--secondary-color);
-  color: #fff;
+  color: var(--primary-color);
   padding: 0.5rem 1.5rem;
   font-size: 1rem;
   border: none;
@@ -41,14 +41,20 @@ ul {
   border-radius: 5px;
 }
 
-.showcase {
+.btn:hover {
+  background-color: var(--supplimental-color);
+  transition: ease-in-out 0.5s;
+}
+
+#showcase {
   position: relative;
   background: url('./img/croppedJasperPairProgramming.jpg') no-repeat center
     center/cover;
   height: 100vh;
 }
 
-.showcase-inner {
+.showcase-inner,
+.contact-inner {
   height: 100%;
   width: 80%;
   display: flex;
@@ -70,15 +76,16 @@ ul {
 
 .x-large {
   font-size: 4rem;
+  text-transform: uppercase;
   line-height: 1.2;
   margin-bottom: 1rem;
-  color: #fff;
+  color: var(--supplimental-color);
 }
 
 .lead {
   font-size: 1.5rem;
   margin-bottom: 1rem;
-  color: #fff;
+  color: var(--supplimental-color);
 }
 
 .navbar {
@@ -107,5 +114,38 @@ ul {
 
 .links li {
   padding: 1rem;
-  color: #fff;
+  color: var(--primary-color);
+  text-transform: uppercase;
+  border-bottom: 3px transparent solid;
+  padding-bottom: 0.5rem;
+  transition: border-color 0.5s;
+}
+
+.links li:hover {
+  border-color: var(--primary-color);
+}
+
+#cover-letter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#resume {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 4rem;
+  height: 100vh;
+}
+
+#resume h1 {
+  text-transform: uppercase;
+}
+
+#contact {
+  position: relative;
+  height: 100vh;
 }
