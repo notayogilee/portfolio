@@ -1,7 +1,7 @@
 :root {
   --primary-color: #101820ff;
   --secondary-color: #fee715ff;
-  --supplimental-color: #e5d541;
+  --supplimental-color: #f3f2e7;
 }
 
 * {
@@ -79,13 +79,13 @@ ul {
   text-transform: uppercase;
   line-height: 1.2;
   margin-bottom: 1rem;
-  color: var(--supplimental-color);
+  color: var(--secondary-color);
 }
 
 .lead {
   font-size: 1.5rem;
   margin-bottom: 1rem;
-  color: var(--supplimental-color);
+  color: var(--secondary-color);
 }
 
 .navbar {
@@ -106,6 +106,7 @@ ul {
   color: var(--primary-color);
 }
 
+.icons ul,
 .links ul {
   display: flex;
   justify-content: space-between;
@@ -121,8 +122,32 @@ ul {
   transition: border-color 0.5s;
 }
 
+.icons li {
+  padding: 1rem;
+  color: var(--primary-color);
+}
+
 .links li:hover {
   border-color: var(--primary-color);
+}
+
+#footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--secondary-color);
+  padding: 0 2rem;
+  position: fixed;
+  bottom: 0;
+  z-index: 1;
+  width: 100%;
+  border-bottom: solid 1px var(--primary-color);
+  opacity: 0.9;
+}
+
+.tag {
+  font-weight: 600;
+  text-transform: uppercase;
 }
 
 #cover-letter {
