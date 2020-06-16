@@ -10,7 +10,7 @@ const Main = () => {
           <p className="lead">Fresh Junior Software Developer</p>
           <div>
             <Link to="/coverLetter" className="btn">Cover Letter</Link>
-            <Link to="/cv" className="btn">CV</Link>
+            <Link to="/cv" className="btn">Résumé</Link>
           </div>
         </div>
       </div>

@@ -33,6 +33,7 @@ ul {
   color: var(--primary-color);
   padding: 0.5rem 1.5rem;
   font-size: 1rem;
+  text-transform: uppercase;
   border: none;
   cursor: pointer;
   margin-right: 0.5rem;
@@ -98,7 +99,6 @@ ul {
   top: 0;
   z-index: 1;
   width: 100%;
-  border-bottom: solid 1px var(--primary-color);
   opacity: 0.9;
 }
 
@@ -142,11 +142,11 @@ ul {
   bottom: 0;
   z-index: 1;
   width: 100%;
-  border-bottom: solid 1px var(--primary-color);
   opacity: 0.9;
 }
 
-.tag {
+.tag,
+.contact-tag {
   font-weight: 600;
   text-transform: uppercase;
 }
@@ -163,12 +163,92 @@ ul {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 4rem;
-  height: 100vh;
+  margin-top: 6rem;
+  margin-bottom: 6rem;
 }
 
 #resume h1 {
   text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+
+.recommendations {
+  border-left: solid 3px var(--secondary-color);
+  width: 50%;
+  padding: 1rem;
+  margin-bottom: 3rem;
+}
+
+.recommendations:hover {
+  box-shadow: 2px 2px 20px var(--secondary-color);
+  border: solid 3px var(--secondary-color);
+  transition: all 0.2s;
+}
+
+.summary {
+  border-left: solid 3px var(--secondary-color);
+  width: 50%;
+  padding: 1rem;
+  margin-bottom: 3rem;
+}
+
+.summary:hover {
+  box-shadow: 2px 2px 20px var(--secondary-color);
+  border: solid 3px var(--secondary-color);
+  transition: all 0.2s;
+}
+
+.education {
+  border-right: solid 3px var(--secondary-color);
+  width: 50%;
+  padding: 1rem;
+  margin-bottom: 3rem;
+}
+
+.education:hover {
+  box-shadow: 2px 2px 20px var(--secondary-color);
+  transition: all 0.2s ease-in-out;
+  border: solid 3px var(--secondary-color);
+}
+
+.employment {
+  border-left: solid 3px var(--secondary-color);
+  width: 50%;
+  padding: 1rem;
+  margin-bottom: 3rem;
+}
+
+.employment:hover {
+  box-shadow: 2px 2px 20px var(--secondary-color);
+  transition: all 0.2s ease-in-out;
+  border: solid 3px var(--secondary-color);
+}
+
+.skills {
+  border-right: solid 3px var(--secondary-color);
+  width: 50%;
+  padding: 1rem;
+  margin-bottom: 3rem;
+}
+
+.skills:hover {
+  box-shadow: 2px 2px 20px var(--secondary-color);
+  transition: all 0.2s ease-in-out;
+  border: solid 3px var(--secondary-color);
+}
+
+.dates {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.2rem;
+  margin-top: 0.2rem;
+}
+
+.strong {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: large;
 }
 
 #contact {
@@ -177,7 +257,6 @@ ul {
 }
 
 #projects {
-  position: relative;
   margin-top: 6rem;
   margin-bottom: 6rem;
 }
@@ -223,7 +302,56 @@ ul {
 .github-link {
   padding: 0.7rem;
   background-color: var(--secondary-color);
-  border: solid 1px var(--secondary-color);
   border-radius: 20px;
   flex: end;
+}
+
+.github-link:hover {
+  background-color: var(--supplimental-color);
+  border: solid 1px var(--primary-color);
+  transition: all 0.5s ease-in-out;
+}
+
+@media (max-width: 800px) {
+  .tag,
+  .btn,
+  .fa-phone-alt,
+  .fa-at,
+  .border {
+    display: none;
+  }
+
+  .x-large {
+    font-size: 2rem;
+  }
+
+  .btn {
+    display: none;
+  }
+
+  .small-row {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .small-col {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .recommendations,
+  .summary,
+  .education,
+  .employment,
+  .skills {
+    width: 100%;
+  }
+
+  .dates {
+    flex-direction: column;
+    align-items: flex-start;
+  }
 }
