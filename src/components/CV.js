@@ -17,6 +17,14 @@ const CV = () => {
         <h1>summary</h1>
         <p>Pharmacy tech turned full-stack web developer, eager to contribute to a team, sharpen & add new skills. I transformed my hobby for coding into a passion and took the leap to make it a career. I left my job with a partial scholarship from Lighthouse Labs to get the foundation I needed and am now excited about the new challenges awaiting.</p>
       </div>
+      <div className="skills">
+        <h1>Skills</h1>
+        <ul>
+          <li><span className="strong">Languages:</span> HTML, CSS, JavaScript, SQL, & Ruby</li>
+          <li><span className="strong">Frameworks & Libraries:</span> ReactJS, NodeJS, Express, Rails, jQuery, Bootstrap, Jest, Cypress, Mocha, Chai</li>
+          <li><span className="strong">Database:</span> PostgresSQL</li>
+        </ul>
+      </div>
       <div className="education">
         <h1>Education</h1>
         <div className="dates">
@@ -43,14 +51,7 @@ const CV = () => {
           <li>Involved in relocating and setting up pharmacy in new hospital.</li>
         </ul>
       </div>
-      <div className="skills">
-        <h1>Skills</h1>
-        <ul>
-          <li><span className="strong">Languages:</span> HTML, CSS, JavaScript, SQL, & Ruby</li>
-          <li><span className="strong">Frameworks & Libraries:</span> ReactJS, NodeJS, Express, Rails, jQuery, Bootstrap, Jest, Cypress, Mocha, Chai</li>
-          <li><span className="strong">Database:</span> PostgresSQL</li>
-        </ul>
-      </div>
+
     </section>
   )
 }
