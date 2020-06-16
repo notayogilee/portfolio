@@ -317,7 +317,7 @@ ul {
   .btn,
   .fa-phone-alt,
   .fa-at,
-  .border {
+  .email {
     display: none;
   }
 
@@ -327,19 +327,6 @@ ul {
 
   .btn {
     display: none;
-  }
-
-  .small-row {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-  }
-
-  .small-col {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
   }
 
   .recommendations,
