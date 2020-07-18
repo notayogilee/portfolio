@@ -5,76 +5,76 @@
   align-items: center;
   margin-top: 6rem;
   margin-bottom: 6rem;
-}
 
-#resume h1 {
-  text-transform: uppercase;
-  margin-bottom: 1rem;
-}
+  h1 {
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+  }
 
-.recommendations {
-  border-right: solid 3px var(--secondary-color);
-  width: 50%;
-  padding: 1rem;
-  margin-bottom: 3rem;
-}
+  .recommendations {
+    border-right: solid 3px var(--secondary-color);
+    width: 50%;
+    padding: 1rem;
+    margin-bottom: 3rem;
+  }
 
-.recommendations:hover {
-  box-shadow: 2px 2px 20px var(--secondary-color);
-  border: solid 3px var(--secondary-color);
-  transition: all 0.2s;
-}
+  .recommendations:hover {
+    box-shadow: 2px 2px 20px var(--secondary-color);
+    border: solid 3px var(--secondary-color);
+    transition: all 0.2s;
+  }
 
-.summary {
-  border-left: solid 3px var(--secondary-color);
-  width: 50%;
-  padding: 1rem;
-  margin-bottom: 3rem;
-}
+  .summary {
+    border-left: solid 3px var(--secondary-color);
+    width: 50%;
+    padding: 1rem;
+    margin-bottom: 3rem;
+  }
 
-.summary:hover {
-  box-shadow: 2px 2px 20px var(--secondary-color);
-  border: solid 3px var(--secondary-color);
-  transition: all 0.2s;
-}
+  .summary:hover {
+    box-shadow: 2px 2px 20px var(--secondary-color);
+    border: solid 3px var(--secondary-color);
+    transition: all 0.2s;
+  }
 
-.education {
-  border-left: solid 3px var(--secondary-color);
-  width: 50%;
-  padding: 1rem;
-  margin-bottom: 3rem;
-}
+  .education {
+    border-left: solid 3px var(--secondary-color);
+    width: 50%;
+    padding: 1rem;
+    margin-bottom: 3rem;
+  }
 
-.education:hover {
-  box-shadow: 2px 2px 20px var(--secondary-color);
-  transition: all 0.2s ease-in-out;
-  border: solid 3px var(--secondary-color);
-}
+  .education:hover {
+    box-shadow: 2px 2px 20px var(--secondary-color);
+    transition: all 0.2s ease-in-out;
+    border: solid 3px var(--secondary-color);
+  }
 
-.employment {
-  border-right: solid 3px var(--secondary-color);
-  width: 50%;
-  padding: 1rem;
-  margin-bottom: 3rem;
-}
+  .employment {
+    border-right: solid 3px var(--secondary-color);
+    width: 50%;
+    padding: 1rem;
+    margin-bottom: 3rem;
+  }
 
-.employment:hover {
-  box-shadow: 2px 2px 20px var(--secondary-color);
-  transition: all 0.2s ease-in-out;
-  border: solid 3px var(--secondary-color);
-}
+  .employment:hover {
+    box-shadow: 2px 2px 20px var(--secondary-color);
+    transition: all 0.2s ease-in-out;
+    border: solid 3px var(--secondary-color);
+  }
 
-.skills {
-  border-right: solid 3px var(--secondary-color);
-  width: 50%;
-  padding: 1rem;
-  margin-bottom: 3rem;
-}
+  .skills {
+    border-right: solid 3px var(--secondary-color);
+    width: 50%;
+    padding: 1rem;
+    margin-bottom: 3rem;
+  }
 
-.skills:hover {
-  box-shadow: 2px 2px 20px var(--secondary-color);
-  transition: all 0.2s ease-in-out;
-  border: solid 3px var(--secondary-color);
+  .skills:hover {
+    box-shadow: 2px 2px 20px var(--secondary-color);
+    transition: all 0.2s ease-in-out;
+    border: solid 3px var(--secondary-color);
+  }
 }
 
 .dates {
