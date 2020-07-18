@@ -1,4 +1,5 @@
 #resume {
+  position: relative;
   padding-top: 100px;
   padding-bottom: 100px;
   display: flex;
@@ -7,7 +8,10 @@
   align-items: center;
 
   .recommendations,
-  .summary {
+  .summary,
+  .skills,
+  .education,
+  .employment {
     position: relative;
     width: 150px;
     height: 150px;
@@ -37,146 +41,42 @@
   }
 
   .description {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
     line-height: normal;
     width: 90%;
     height: auto;
     padding: 1rem;
     margin-bottom: 20px;
     border: solid 3px #333;
-    opacity: 1;
     transition: transform 1s, opacity 1s 200ms;
-  }
+    z-index: 1;
+    animation-name: modalFadeIn;
+    animation-duration: 1s;
 
-  .summary {
-    position: relative;
-    width: 150px;
-    height: 150px;
-    border: solid 3px #333;
-    border-radius: 50%;
-    margin-bottom: 40px;
+    .head {
+      display: flex;
+      justify-content: space-between;
 
-    .fas {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      opacity: 1;
-      transition: opacity 1s;
-    }
+      button {
+        cursor: pointer;
+        background: transparent;
+        border: transparent;
+        outline: none;
+      }
 
-    h1 {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      text-transform: uppercase;
-      font-size: 30px;
-      opacity: 0;
-      transition: opacity 1s;
-    }
-  }
-
-  .skills {
-    position: relative;
-    width: 150px;
-    height: 150px;
-    border: solid 3px #333;
-    border-radius: 50%;
-    margin-bottom: 40px;
-
-    .fas {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      opacity: 1;
-      transition: opacity 1s;
-    }
-
-    h1 {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      text-transform: uppercase;
-      font-size: 30px;
-      opacity: 0;
-      transition: opacity 1s;
-    }
-  }
-
-  .education {
-    position: relative;
-    width: 150px;
-    height: 150px;
-    border: solid 3px #333;
-    border-radius: 50%;
-    margin-bottom: 40px;
-
-    .fas {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      opacity: 1;
-      transition: opacity 1s;
-    }
-
-    h1 {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      text-transform: uppercase;
-      font-size: 30px;
-      opacity: 0;
-      transition: opacity 1s;
-    }
-  }
-
-  .employment {
-    position: relative;
-    width: 150px;
-    height: 150px;
-    border: solid 3px #333;
-    border-radius: 50%;
-    margin-bottom: 40px;
-
-    .fas {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      opacity: 1;
-      transition: opacity 1s;
-    }
-
-    h1 {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      text-transform: uppercase;
-      font-size: 30px;
-      opacity: 0;
-      transition: opacity 1s;
+      h3 {
+        text-transform: uppercase;
+      }
     }
   }
 
   .btn {
     background-color: transparent;
     cursor: pointer;
-  }
-
-  .show {
-    // .recommendations {
-    //   right: 250px;
-    // }
-
-    .description {
-      opacity: 1;
-      // transform: translate(-20%, -30%);
-    }
   }
 
   .btn:hover {
@@ -186,5 +86,27 @@
     h1 {
       opacity: 1;
     }
+  }
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+@keyframes modalFadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes modalFadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
   }
 }
