@@ -4,6 +4,7 @@ import scheduler from '../img/scheduler.png';
 import tinyapp from '../img/tinyapp.png';
 import tweeter from '../img/tweeter.png';
 import jungleapp from '../img/jungleapp.png';
+import './Projects.scss';
 
 const Projects = () => {
   return (

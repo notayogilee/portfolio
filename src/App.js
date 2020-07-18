@@ -7,7 +7,7 @@ import CoverLetter from './components/CoverLetter';
 import CV from './components/CV';
 import Projects from './components/Projects';
 
-import './App.css';
+import './App.scss';
 
 function App() {
   return (

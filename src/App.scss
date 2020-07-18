@@ -1,0 +1,66 @@
+:root {
+  --primary-color: #101820ff;
+  --secondary-color: rgb(58, 161, 37);
+  --supplimental-color: rgb(202, 238, 168);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  line-height: 1.6;
+  background-color: var(--supplimental-color);
+  color: var(--primary-color);
+}
+
+a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+#showcase {
+  position: relative;
+  background: url('./img/croppedJasperPairProgramming.jpg') no-repeat center
+    center/cover;
+  height: 100vh;
+}
+
+@media (max-width: 800px) {
+  .tag,
+  .btn,
+  .fa-phone-alt,
+  .fa-at,
+  .email {
+    display: none;
+  }
+
+  .x-large {
+    font-size: 2rem;
+  }
+
+  .btn {
+    display: none;
+  }
+
+  .recommendations,
+  .summary,
+  .education,
+  .employment,
+  .skills {
+    width: 100%;
+  }
+
+  .dates {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
