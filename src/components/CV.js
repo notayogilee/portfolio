@@ -9,12 +9,12 @@ const CV = () => {
 
   return (
     <section id="resume" className={overlay}>
-      <a href="#" onClick={() => { setId(1); setShow(!show); setOverlay('overlay') }}>
+      <button onClick={() => { setId(1); setShow(!show); setOverlay('overlay') }}>
         <div className="recommendations btn">
           <i class="fas fa-thumbs-up fa-4x"></i>
           <h1>recommendations</h1>
         </div>
-      </a>
+      </button>
       {show && id === 1 &&
         <div className="description">
           <div className="head">
@@ -30,12 +30,12 @@ const CV = () => {
             -Max Kay, Mentor for Lighthouse Labs</i>
         </div>
       }
-      <a href="#" onClick={() => { setId(2); setShow(!show); setOverlay('overlay') }}>
+      <button onClick={() => { setId(2); setShow(!show); setOverlay('overlay') }}>
         <div className="summary btn">
           <i class="fas fa-ellipsis-h fa-4x"></i>
           <h1>summary</h1>
         </div>
-      </a>
+      </button>
       {show && id === 2 &&
         <div className="description">
           <div className="head">
@@ -45,12 +45,12 @@ const CV = () => {
           <p>Pharmacy tech turned full-stack web developer, eager to contribute to a team, sharpen & add new skills. I transformed my hobby for coding into a passion and took the leap to make it a career. I left my job with a partial scholarship from Lighthouse Labs to get the foundation I needed and am now excited about the new challenges awaiting.</p>
         </div>
       }
-      <a href="#" onClick={() => { setId(3); setShow(!show); setOverlay('overlay') }}>
+      <button onClick={() => { setId(3); setShow(!show); setOverlay('overlay') }}>
         <div className="skills btn">
           <i class="fas fa-check fa-4x"></i>
           <h1>skills</h1>
         </div>
-      </a>
+      </button>
       {show && id === 3 &&
         <div className="description">
           <div className="head">
@@ -64,13 +64,13 @@ const CV = () => {
           </ul>
         </div>
       }
-      <a href="#" onClick={() => { setId(4); setShow(!show); setOverlay('overlay') }}>
+      <button onClick={() => { setId(4); setShow(!show); setOverlay('overlay') }}>
         <div className="education btn">
           <i class="fas fa-university fa-4x"></i>
           <h1>education</h1>
         </div>
 
-      </a>
+      </button>
       {show && id === 4 &&
         <div className="description">
           <div className="head">
@@ -89,12 +89,12 @@ const CV = () => {
           <p>DEC Natural Science</p>
         </div>
       }
-      <a href="#" onClick={() => { setId(5); setShow(!show); setOverlay('overlay') }}>
+      <button onClick={() => { setId(5); setShow(!show); setOverlay('overlay') }}>
         <div className="employment btn">
           <i class="fas fa-building fa-4x"></i>
           <h1>employment</h1>
         </div>
-      </a>
+      </button>
       {show && id === 5 &&
         <div className="description">
           <div className="head">

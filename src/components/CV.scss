@@ -89,6 +89,13 @@
   }
 }
 
+button {
+  cursor: pointer;
+  background: transparent;
+  border: transparent;
+  outline: none;
+}
+
 .overlay {
   background-color: rgba(0, 0, 0, 0.5);
 }
