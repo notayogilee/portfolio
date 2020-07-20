@@ -1,8 +1,9 @@
 #projects {
-  margin-top: 6rem;
-  margin-bottom: 6rem;
+  background: url('../img/folder.jpg') no-repeat center center/cover;
+  padding: 6rem 0 6rem 0;
 
   h1 {
+    font-family: 'Stardos Stencil', cursive;
     text-align: center;
     text-transform: uppercase;
     font-size: 2rem;
@@ -14,20 +15,40 @@
     align-items: center;
     flex-wrap: wrap;
 
+    .green-thumb,
+    .jungle-app,
+    .scheduler,
+    .tiny-app,
+    .tweeter {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+    }
+
     .project {
       background: #fff;
-      display: flex;
-      flex-direction: column;
-      justify-content: space-evenly;
-      align-items: center;
       margin: 1rem;
-      padding: 2rem;
-      height: 600px;
-      width: 600px;
-      border: solid 2px var(--primary-color);
+      padding: 1rem;
+      height: 300px;
+      width: 30%;
+      transform: rotate(-5deg);
+      // border: solid 2px var(--primary-color);
+
+      img {
+        height: 90%;
+        border: solid 2px var(--primary-color);
+      }
+    }
+
+    .project-description {
+      height: 300px;
+      width: 50%;
+      justify-content: center;
+      align-items: center;
     }
 
     h3 {
+      font-family: 'Courier Prime', monospace;
       text-transform: uppercase;
       margin-bottom: 5px;
       color: var(--primary-color);

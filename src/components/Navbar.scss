@@ -2,8 +2,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: var(--secondary-color);
-  background: linear-gradient(rgba(58, 161, 37, 1), rgba(transparent, 0));
+  // background-color: var(--secondary-color);
+  // background: linear-gradient(rgba(58, 161, 37, 1), rgba(transparent, 0));
   padding: 0.5rem 2rem;
   position: fixed;
   top: 0;
@@ -26,7 +26,8 @@
 .links li {
   padding: 1rem;
   color: var(--primary-color);
-  font-weight: 500;
+  font-weight: 600;
+  font-size: 20px;
   text-transform: uppercase;
   border-bottom: 3px transparent solid;
   padding-bottom: 0.5rem;

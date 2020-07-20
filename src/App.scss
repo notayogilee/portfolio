@@ -1,7 +1,13 @@
+// Fonts
+
+// font-family: 'Courier Prime', monospace; -typewriter
+// font-family: 'Montserrat', sans-serif;   -regular
+// font-family: 'Stardos Stencil', cursive; -stencil
+
 :root {
   --primary-color: #101820ff;
-  --secondary-color: rgb(58, 161, 37);
-  --supplimental-color: rgb(202, 238, 168);
+  --secondary-color: rgb(75, 83, 32);
+  --supplimental-color: rgb(173, 184, 116);
 }
 
 * {
@@ -11,7 +17,7 @@
 }
 
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Courier Prime', monospace;
   font-size: 1rem;
   line-height: 1.6;
   background-color: var(--supplimental-color);

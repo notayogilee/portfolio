@@ -1,11 +1,10 @@
 #showcase {
   position: relative;
-  background: url('../img/croppedJasperPairProgramming.jpg') no-repeat center
-    center/cover;
+  background: url('../img/folder.jpg') no-repeat center center/cover;
   height: 100vh;
 
   .dark-overlay {
-    background-color: rgba(0, 0, 0, 0.4);
+    // background-color: rgba(0, 0, 0, 0.4);
     position: absolute;
     top: 0;
     left: 0;
@@ -21,6 +20,7 @@
       justify-content: center;
       text-align: center;
       margin: auto;
+      font-family: 'Courier Prime', monospace;
 
       .x-large {
         font-size: 4rem;

@@ -2,8 +2,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: var(--secondary-color);
-  background: linear-gradient(rgba(transparent, 0), rgba(58, 161, 37, 1));
   padding: 0 2rem;
   position: fixed;
   bottom: 0;
@@ -15,5 +13,6 @@
 .tag,
 .contact-tag {
   font-weight: 600;
+  font-size: 20px;
   text-transform: uppercase;
 }
