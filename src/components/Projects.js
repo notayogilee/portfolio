@@ -9,7 +9,7 @@ import './Projects.scss';
 const Projects = () => {
   return (
     <section id="projects">
-      <h1>Projects</h1>
+      <h1>OPERATIONS</h1>
       <div className="container">
         <div className="green-thumb">
           <div className="project">

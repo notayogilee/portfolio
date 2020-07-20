@@ -15,4 +15,14 @@
   font-weight: 600;
   font-size: 20px;
   text-transform: uppercase;
+  text-shadow: 2px 2px 10px #d8b157;
+}
+
+@media (max-width: 1024px) {
+  #footer {
+    justify-content: space-evenly;
+  }
+  .tag {
+    display: none;
+  }
 }

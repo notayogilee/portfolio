@@ -1,7 +1,7 @@
 #resume {
-  background: url('../img/folder.jpg') no-repeat center center/cover;
   width: 100%;
   height: 100vh;
+  background: url('../img/folder.jpg') no-repeat center center/cover;
   position: relative;
   padding: 100px 0 100px 0;
   display: flex;
@@ -49,7 +49,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background: #fff;
+    background: var(--supplimental-color);
     line-height: normal;
     width: auto;
     height: auto;
@@ -57,7 +57,7 @@
     margin-bottom: 20px;
     border: solid 3px #333;
     transition: transform 1s, opacity 1s 200ms;
-    z-index: 1;
+    z-index: 2;
     animation-name: modalFadeIn;
     animation-duration: 1s;
 
@@ -124,5 +124,11 @@ button {
   }
   to {
     opacity: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  #resume {
+    height: 100%;
   }
 }
