@@ -6,6 +6,7 @@ import Main from './components/Main';
 import CoverLetter from './components/CoverLetter';
 import CV from './components/CV';
 import Projects from './components/Projects';
+import Contact from './components/Contact';
 
 import './App.scss';
 
@@ -18,6 +19,7 @@ function App() {
         <Route exact path="/coverLetter" component={CoverLetter} />
         <Route exact path="/cv" component={CV} />
         <Route exact path="/projects" component={Projects} />
+        <Route exact path="/contact" component={Contact} />
       </Switch>
       <Footer />
     </Router>

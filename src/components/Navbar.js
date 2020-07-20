@@ -11,6 +11,7 @@ const Navbar = () => {
           <li><Link to="/coverLetter">Cover Letter</Link></li>
           <li><Link to="/cv">Résumé</Link></li>
           <li><Link to="/projects">projects</Link></li>
+          <li><Link to="/contact">contact</Link></li>
         </ul>
       </div>
     </nav>
