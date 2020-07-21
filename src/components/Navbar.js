@@ -28,21 +28,11 @@ const Navbar = () => {
           {drop &&
             <div className="drop-list">
               <ul>
-
-                <li className="drop-list-item"><Link onClick={(() => setDrop(!drop))} to="/">Home</Link></li>
-
-
-                <li className="drop-list-item"><Link onClick={(() => setDrop(!drop))} to="/coverLetter">Cover Letter</Link></li>
-
-
-                <li className="drop-list-item"><Link onClick={(() => setDrop(!drop))} to="/cv">Résumé</Link></li>
-
-
-                <li className="drop-list-item"><Link onClick={(() => setDrop(!drop))} to="/projects">projects</Link></li>
-
-
-                <li className="drop-list-item"><Link onClick={(() => setDrop(!drop))} to="/contact">contact</Link></li>
-
+                <li className="drop-list-item"><Link onClick={(() => setDrop(!drop))} to="/"><h1>Home</h1></Link></li>
+                <li className="drop-list-item"><Link onClick={(() => setDrop(!drop))} to="/coverLetter"><h1>Cover Letter</h1></Link></li>
+                <li className="drop-list-item"><Link onClick={(() => setDrop(!drop))} to="/cv"><h1>Résumé</h1></Link></li>
+                <li className="drop-list-item"><Link onClick={(() => setDrop(!drop))} to="/projects"><h1>projects</h1></Link></li>
+                <li className="drop-list-item"><Link onClick={(() => setDrop(!drop))} to="/contact"><h1>contact</h1></Link></li>
               </ul>
             </div>
           }
