@@ -9,7 +9,7 @@ const Navbar = () => {
   return (
     <Fragment>
       <nav className="navbar">
-        <a href="/"><i className="fas fa-code fa-2x"></i></a>
+        <a href="/"><i class="fas fa-user-secret fa-3x"></i></a>
         <div className="links">
           <ul>
             <li><Link to="/coverLetter">Cover Letter</Link></li>

@@ -82,13 +82,13 @@
     }
     .container {
       .green-thumb,
-      .jungle-app,
       .scheduler,
+      .jungle-app,
       .tiny-app,
       .tweeter {
         display: flex;
         flex-direction: column;
-        padding-bottom: 120px;
+        padding-bottom: 80px;
 
         .project {
           width: 90vw;
@@ -96,9 +96,10 @@
 
         .project-description {
           h3 {
+            width: 90vw;
             text-align: center;
             font-size: 25px;
-            transform: translate(5%, -135%) rotate(-5deg);
+            transform: translate(-20%, -135%) rotate(-5deg);
           }
 
           p {
@@ -115,6 +116,10 @@
             transform: translateX(-25%);
           }
         }
+      }
+
+      .jungle-app {
+        padding-top: 120px;
       }
     }
   }
