@@ -14,7 +14,7 @@ const Navbar = () => {
           <ul>
             <li><Link to="/coverLetter">Cover Letter</Link></li>
             <li><Link to="/cv">Résumé</Link></li>
-            <li><Link to="/projects">projects</Link></li>
+            <li><Link to="/projects">operations</Link></li>
             <li><Link to="/contact">contact</Link></li>
           </ul>
         </div>
@@ -31,7 +31,7 @@ const Navbar = () => {
                 <li className="drop-list-item"><Link onClick={(() => setDrop(!drop))} to="/"><h1>Home</h1></Link></li>
                 <li className="drop-list-item"><Link onClick={(() => setDrop(!drop))} to="/coverLetter"><h1>Cover Letter</h1></Link></li>
                 <li className="drop-list-item"><Link onClick={(() => setDrop(!drop))} to="/cv"><h1>Résumé</h1></Link></li>
-                <li className="drop-list-item"><Link onClick={(() => setDrop(!drop))} to="/projects"><h1>projects</h1></Link></li>
+                <li className="drop-list-item"><Link onClick={(() => setDrop(!drop))} to="/projects"><h1>operations</h1></Link></li>
                 <li className="drop-list-item"><Link onClick={(() => setDrop(!drop))} to="/contact"><h1>contact</h1></Link></li>
               </ul>
             </div>

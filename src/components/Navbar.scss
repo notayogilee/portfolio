@@ -63,16 +63,16 @@
         position: absolute;
         align-items: center;
         background-color: rgba(0, 0, 0, 0.7);
-        margin-top: -90px;
+        margin-top: -85px;
         padding-top: 90px;
 
         .drop-list-item {
           width: 90%;
           height: 50px;
+
           font-weight: 600;
           text-transform: uppercase;
           text-align: center;
-          justify-content: center;
 
           h1 {
             color: var(--secondary-color);
