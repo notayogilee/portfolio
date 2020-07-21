@@ -68,11 +68,21 @@
   }
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (max-width: 767px) {
   #contact-page {
+    //   height: 1200px;
+    .secret {
+      top: 10%;
+      left: 40%;
+    }
+
     .contact-form {
+      .text-fields {
+        width: 80vw;
+      }
       .message-button {
-        top: 115%;
+        left: 35%;
+        top: 105%;
       }
     }
   }
