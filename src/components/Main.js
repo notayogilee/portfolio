@@ -18,7 +18,6 @@ const Main = () => {
           <Link to="/cv" className="btn">Résumé</Link>
         </div>
       </div>
-
     </section>
 
   )

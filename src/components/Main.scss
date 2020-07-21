@@ -1,6 +1,7 @@
 #showcase {
   position: relative;
   background: url('../img/folder.jpg') no-repeat center center/cover;
+  width: 100%;
   height: 100vh;
 
   .secret {
@@ -74,6 +75,7 @@
 
 @media (max-width: 767px) {
   #showcase {
+    width: 100%;
     .secret {
       top: 18%;
       left: 8%;

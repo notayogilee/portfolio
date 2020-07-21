@@ -73,7 +73,13 @@
           font-weight: 600;
           text-transform: uppercase;
           text-align: center;
+          color: var(--secondary-color);
 
+          // .fab {
+          //   color: var(--secondary-color);
+          // }
+
+          .fab,
           h1 {
             color: var(--secondary-color);
           }

@@ -33,6 +33,12 @@ const Navbar = () => {
                 <li className="drop-list-item"><Link onClick={(() => setDrop(!drop))} to="/cv"><h1>Résumé</h1></Link></li>
                 <li className="drop-list-item"><Link onClick={(() => setDrop(!drop))} to="/projects"><h1>operations</h1></Link></li>
                 <li className="drop-list-item"><Link onClick={(() => setDrop(!drop))} to="/contact"><h1>contact</h1></Link></li>
+                <li className="drop-list-item"><a href="https://github.com/notayogilee" target="_blank" rel="noopener noreferrer"><i className="fab fa-github-square fa-2x"></i></a></li>
+                <li className="drop-list-item"><a href="https://www.linkedin.com/in/lee-castelani-40bba31a5/" target="_blank" rel="noopener noreferrer"><i className="fab fa-linkedin fa-2x"></i></a></li>
+                <li className="phone drop-list-item"><h2>
+                  514-552-6031
+                </h2></li>
+                <li className="email drop-list-item"><h2>notayogilee@gmail.com</h2></li>
               </ul>
             </div>
           }
