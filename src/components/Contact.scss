@@ -67,3 +67,13 @@
     }
   }
 }
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  #contact-page {
+    .contact-form {
+      .message-button {
+        top: 115%;
+      }
+    }
+  }
+}

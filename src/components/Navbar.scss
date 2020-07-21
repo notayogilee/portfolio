@@ -1,3 +1,7 @@
+.drop-down {
+  display: none;
+}
+
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -37,4 +41,40 @@
 
 .links li:hover {
   border-color: var(--primary-color);
+}
+
+@media (max-width: 767px) {
+  .navbar {
+    display: none;
+  }
+
+  .drop-down {
+    display: flex;
+    flex-direction: column;
+    display: inline;
+    position: fixed;
+    top: 30px;
+    z-index: 5;
+
+    .drop-wrapper {
+      .drop-list {
+        width: 100vw;
+        height: 100vh;
+        position: absolute;
+        align-items: center;
+        // left: 10%;
+        // background-color: #fff;
+
+        .drop-list-item {
+          width: 90%;
+          height: 50px;
+          font-size: 40px;
+          font-weight: 600;
+          text-transform: uppercase;
+          text-align: center;
+          justify-content: center;
+        }
+      }
+    }
+  }
 }
