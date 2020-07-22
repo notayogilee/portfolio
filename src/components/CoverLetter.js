@@ -7,7 +7,7 @@ const CoverLetter = () => {
     <section id="cover-letter">
       <ReactPlayer
         className="video"
-        url="https://www.youtube.com/watch?v=IzQT6dtnvt0"
+        url="https://www.youtube.com/watch?v=IDyaOrxAyes"
         controls={true}
         fullscreen={true}
         resizeMode="cover"
