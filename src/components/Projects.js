@@ -58,7 +58,9 @@ const Projects = () => {
             <h3>Tiny App</h3>
             <p>URL shortening app inspired by TinyURL using Express and Node.js.</p>
             <br />
+            <a href="https://really-tiny-app.herokuapp.com/" target="_blank" rel="noopener noreferrer">Deployed App</a>
             <a href="https://github.com/notayogilee/tinyapp" target="_blank" rel="noopener noreferrer">View Code on GitHub</a>
+
           </div>
         </div>
         <div className="tweeter">
