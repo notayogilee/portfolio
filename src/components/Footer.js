@@ -5,8 +5,8 @@ const Footer = () => {
   return (
     <footer id="footer">
       <div className="tag">
-        Contact me anytime!
-    </div>
+        <a href="/contact"> Contact me anytime!</a>
+      </div>
       <div className="icons">
         <ul className="contact-tag">
           <li><a href="https://github.com/notayogilee" target="_blank" rel="noopener noreferrer"><i className="fab fa-github-square fa-2x"></i></a></li>
