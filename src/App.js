@@ -7,12 +7,14 @@ import CoverLetter from './components/CoverLetter';
 import CV from './components/CV';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
+import SuccessMessage from './components/SuccessMessage';
 
 import './App.scss';
 
 function App() {
   return (
     <Router>
+      <Route exact path="/message/success" />
       <Navbar />
       <Switch>
         <Route exact path="/" component={Main} />
