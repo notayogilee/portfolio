@@ -14,7 +14,7 @@ import './App.scss';
 function App() {
   return (
     <Router>
-      <Route exact path="/message/success" />
+      <Route exact path="/message/success" component={SuccessMessage} />
       <Navbar />
       <Switch>
         <Route exact path="/" component={Main} />
