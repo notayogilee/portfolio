@@ -19,7 +19,7 @@ const Projects = () => {
           <div className="project-description">
             <h3>Yogi À Lunette</h3>
             <p>
-              A website made for my yoga intructor wife who has a YouTube channel of instructional videos. For now, there is no backend, React is on the front and I used all custom sass - no css libraries. I deployed with Netlify. I embeded the videos from YouTube. I added a live stream section, where I embeded the Twitch streaming platform and now a live class is given once a week. Along with a contact form which is pointed to specific emails.
+              A website made for my yoga intructor wife who has a YouTube channel of instructional yoga videos. For now, there is no backend, React is on the front and I used all custom sass - no css libraries. I deployed with Netlify. I embeded the videos from YouTube. I added a live stream section, where I embeded the Twitch streaming platform and now a live class is given once a week. Along with a contact form which is pointed to specific emails.
           </p>
             <br />
             <a href="https://github.com/notayogilee/portfolio" target="_blank" rel="noopener noreferrer">View Code on GitHub</a>
