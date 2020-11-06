@@ -4,6 +4,7 @@ import scheduler from '../img/scheduler.png';
 import tinyapp from '../img/tinyapp.png';
 import tweeter from '../img/tweeter.png';
 import jungleapp from '../img/jungleapp.png';
+import yogiALunette from '../img/yogiALunette.png';
 import './Projects.scss';
 
 const Projects = () => {
@@ -11,6 +12,20 @@ const Projects = () => {
     <section id="projects">
       <h1>OPERATIONS</h1>
       <div className="container">
+        <div className="yogi-a-lunette">
+          <div className="project">
+            <img src={yogiALunette} alt="yogi-a-lunette" />
+          </div>
+          <div className="project-description">
+            <h3>Yogi À Lunette</h3>
+            <p>
+              A website made for my yoga intructor wife who has a YouTube channel of instructional videos. For now, there is no backend, React is on the front and I used all custom sass - no css libraries. I deployed with Netlify. I embeded the videos from YouTube. I added a live stream section, where I embeded the Twitch streaming platform and now a live class is given once a week. Along with a contact form which is pointed to specific emails.
+          </p>
+            <br />
+            <a href="https://github.com/notayogilee/portfolio" target="_blank" rel="noopener noreferrer">View Code on GitHub</a>
+            <a href="https://www.yogialunette.com" target="_blank" rel="noopener noreferrer">Deployed Website</a>
+          </div>
+        </div>
         <div className="green-thumb">
           <div className="project">
             <img src={greenThumb} alt="greenThumb" />
