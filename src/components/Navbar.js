@@ -9,7 +9,7 @@ const Navbar = () => {
   return (
     <Fragment>
       <nav className="navbar">
-        <a href="/"><i class="fas fa-user-secret fa-3x"></i></a>
+        <a href="/"><i className="fas fa-user-secret fa-3x"></i></a>
         <div className="links">
           <ul>
             <li><Link to="/coverLetter">Cover Letter</Link></li>
@@ -22,7 +22,7 @@ const Navbar = () => {
       <div className="drop-down">
         <div className="drop-wrapper">
           <div className="drop-header">
-            <button onClick={(() => setDrop(!drop))} className="drop-header-title"><i class="fas fa-bars fa-4x"></i></button>
+            <button onClick={(() => setDrop(!drop))} className="drop-header-title"><i className="fas fa-bars fa-4x"></i></button>
           </div>
 
           {drop &&

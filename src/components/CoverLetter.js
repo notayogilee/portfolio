@@ -9,8 +9,8 @@ const CoverLetter = () => {
         className="video"
         url="https://www.youtube.com/watch?v=ubSpgjF0knQ"
         controls={true}
-        fullscreen={true}
-        resizeMode="cover"
+        // fullscreen={true}
+        resizemode="cover"
       />
     </section>
   )
