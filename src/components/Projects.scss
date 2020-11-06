@@ -71,11 +71,11 @@
         text-shadow: 4px 2px 10px #d8b157;
         border-radius: 20px;
         z-index: 1;
+        transition: all 0.5s ease-in-out;
       }
 
       a:hover {
         background-color: var(--supplimental-color);
-        border: solid 1px var(--primary-color);
         transition: all 0.5s ease-in-out;
       }
     }
