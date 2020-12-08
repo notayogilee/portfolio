@@ -86,7 +86,6 @@ const Projects = () => {
             <h3>Tweeter</h3>
             <p>A chat app copy of Twitter powered by Express, jQuery, and Node.js.</p>
             <br />
-            <a href="https://tweeter-comment-clone.herokuapp.com/" target="_blank" rel="noopener noreferrer">Deployed App</a>
             <a href="https://github.com/notayogilee/tweeter" target="_blank" rel="noopener noreferrer">View Code on GitHub</a>
           </div>
         </div>
